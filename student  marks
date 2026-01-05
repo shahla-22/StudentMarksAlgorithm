@@ -9,7 +9,7 @@ public class Main {
            marks[i] = input.nextInt();
        }
        for (int i = 0; i < numberOfModules; i++) {
-           total = total + marks[i];
+           total = total + marks[i]+2;
        }
        if (total >= 50) {
            System.out.println("Pass");
